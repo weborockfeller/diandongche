@@ -26,9 +26,11 @@ section .fenlei li:nth-child(2){
 }
 section .fenlei li:nth-child(1){
 	margin-left: 0.9rem;
+	font-size: 0.2rem;
 }
 section .fenlei li:nth-child(3){
 	margin-right: 0.9rem;
+	font-size: 0.2rem;
 }
 section .content{
 	margin-top: 0.85rem;

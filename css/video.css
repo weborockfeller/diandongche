@@ -79,7 +79,9 @@ section dl li {
 	color: #ACACAC;
 	margin-top: 0.2rem;
 }
-
+section dl li span{
+	font-size: 0.2rem;
+}
 section dl li img {
 	width: 0.402778rem;
 	height: 0.180556rem;

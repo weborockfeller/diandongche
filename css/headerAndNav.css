@@ -8,6 +8,7 @@ header {
 	z-index: 5;
 	top: 0;
 	left: 0;
+	
 }
 
 header li:nth-child(1) img {
@@ -22,18 +23,18 @@ header li:nth-child(2) input {
 	color: #cccccc;
 	outline: none;
 	border: none;
-	border-radius: 0.2rem;
+	border-radius: 0.15rem;
 	font-size: 0.377778rem;
 }
 
 header li:nth-child(2) {
-	margin-top: 0.194444rem;
+	margin-top: 0.03rem;
 }
 
 header li:nth-child(3) img {
 	width: 0.833333rem;
 	height: 0.569444rem;
-	margin-top: 0.194444rem;
+	margin-top: 0.2rem;
 }
 
 nav {
@@ -59,4 +60,6 @@ nav li {
 nav li a {
 	color: white;
 	font-family: "微软雅黑";
+	font-size: 0.4rem;
+	font-weight: bold;
 }

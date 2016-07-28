@@ -8,8 +8,9 @@ require.config({
 		"jquery"        : "./lib/jquery-2.2.3",
 		"footApp"       : "./footApp",
 		//这里引用的是依赖jquery的版本，所以下面要写上依赖
-		"swiper"        : "./lib/swiper-3.3.1.jquery.min"
-	},
+		"swiper"        : "./lib/swiper-3.3.1.jquery.min",
+		"flex"          : "./lib/flexible"
+ 	},
 	// 定义非AMD规范JS
 	shim : {
 		"angular-route" : ["angular"],

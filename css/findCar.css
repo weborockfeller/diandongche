@@ -106,6 +106,7 @@ nav{
 	margin-top: 0.277778rem;
 	height: 0.875rem;
 	line-height: 0.875rem;
+	position: static;
 }
 nav>span{
 	display: block;
