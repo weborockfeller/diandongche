@@ -1,0 +1,62 @@
+{
+
+	"products": [
+		{
+			"img": "./images/product/product01.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}, {
+			"img": "./images/product/product02.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}, {
+			"img": "./images/product/product03.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}
+		, {
+			"img": "./images/product/product04.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}
+		, {
+			"img": "./images/product/product05.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}
+		, {
+			"img": "./images/product/product06.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		},
+		{
+			"img": "./images/product/product01.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}, {
+			"img": "./images/product/product02.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}, {
+			"img": "./images/product/product03.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}
+		, {
+			"img": "./images/product/product04.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}
+		, {
+			"img": "./images/product/product05.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}
+		, {
+			"img": "./images/product/product06.gif",
+			"intro": "本铃电摩800W电动车",
+			"money": "5000"
+		}
+		
+	]
+}

@@ -24,131 +24,14 @@
 </nav>
 
 <section>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
+	<dl ng-repeat="x in hotNews">
+		<dd><img ng-src="{{x.img}}" alt=""></dd>
 
 		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
+			{{x.intro}}
 		</p>
 
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
+		<dt>{{x.date}}</dt>
 		<li>
 			<img src="./images/eye.gif" alt="">
 			<span>187</span>

@@ -67,9 +67,9 @@ define(["angularAMD", "angular-route"], function(angularAMD) {
 					// 触发锚点后访问的页面
 					templateUrl: "./tpl/findCar.html",
 					// 当前页面的控制器名字homeCtrl
-//					controller: "findCarCtrl",
+					controller: "findCarCtrl",
 					// 控制器的路径./js/homeCtrl.js
-//					controllerUrl: "./js/findCarCtrl"
+					controllerUrl: "./js/findCarCtrl"
 				})
 			)
 			.when(
@@ -103,9 +103,9 @@ define(["angularAMD", "angular-route"], function(angularAMD) {
 					// 触发锚点后访问的页面
 					templateUrl: "./tpl/news.html",
 					// 当前页面的控制器名字homeCtrl
-//					controller: "newsCtrl",
+					controller: "newsCtrl",
 					// 控制器的路径./js/homeCtrl.js
-//					controllerUrl: "./js/newsCtrl"
+					controllerUrl: "./js/newsCtrl"
 				})
 			)
 			.when(
@@ -115,9 +115,9 @@ define(["angularAMD", "angular-route"], function(angularAMD) {
 					// 触发锚点后访问的页面
 					templateUrl: "./tpl/product.html",
 					// 当前页面的控制器名字homeCtrl
-//					controller: "productCtrl",
+					controller: "productCtrl",
 					// 控制器的路径./js/homeCtrl.js
-//					controllerUrl: "./js/productCtrl"
+					controllerUrl: "./js/productCtrl"
 				})
 			)
 			.when(
@@ -127,9 +127,9 @@ define(["angularAMD", "angular-route"], function(angularAMD) {
 					// 触发锚点后访问的页面
 					templateUrl: "./tpl/video.html",
 					// 当前页面的控制器名字homeCtrl
-//					controller: "videoCtrl",
+					controller: "videoCtrl",
 					// 控制器的路径./js/homeCtrl.js
-//					controllerUrl: "./js/videoCtrl"
+					controllerUrl: "./js/videoCtrl"
 				})
 			)
 			.when(
@@ -139,9 +139,9 @@ define(["angularAMD", "angular-route"], function(angularAMD) {
 					// 触发锚点后访问的页面
 					templateUrl: "./tpl/shoppingGuide.html",
 					// 当前页面的控制器名字homeCtrl
-//					controller: "shoppingGuideCtrl",
+					controller: "shoppingGuideCtrl",
 					// 控制器的路径./js/homeCtrl.js
-//					controllerUrl: "./js/shoppingGuideCtrl"
+					controllerUrl: "./js/shoppingGuideCtrl"
 				})
 			)
 			.otherwise({

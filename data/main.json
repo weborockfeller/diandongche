@@ -1,0 +1,97 @@
+{
+	"slider": [
+		{
+			"img": "./images/banner.gif",
+			"name": "概念型电动车为什么这么贵"
+		}, {
+			"img": "./images/banner01.png",
+			"name": "概念型电动车为什么这么贵"
+		}, {
+			"img": "./images/banner04.png",
+			"name": "概念型电动车为什么这么贵"
+		}
+	],
+	"hotNews": [
+		{
+			"img": "./images/01.gif",
+			"intro": "爱尔威折叠电动车400万展示大视界 可放背包",
+			"date": "2016-7-26"
+		}, {
+			"img": "./images/02.gif",
+			"intro": "华山论剑 谁与争锋",
+			"date": "2016-7-25"
+		}, {
+			"img": "./images/03.gif",
+			"intro": "宗申车辆成为CCTV发现之旅《品质》栏目国内行业首家入选企业",
+			"date": "2016-7-26"
+		}
+		, {
+			"img": "./images/04.gif",
+			"intro": "Yike Bike 售价高达7万人民币 概念型电动车凭什么这么贵",
+			"date": "2016-7-26"
+		}
+		, {
+			"img": "./images/05.gif",
+			"intro": "为什么电动车铅酸电池寿命仅一年",
+			"date": "2016-7-26"
+		}
+	],
+	"hotCarType": [
+		{
+			"img": "./images/che02.gif",
+			"title": "爱玛电动车MINI家族A-16A",
+			"mean": "创新为本",
+			"money": "￥2600"
+		}, {
+			"img": "./images/che01.gif",
+			"title": "新日电动车雅客",
+			"mean": "感受阳光",
+			"money": "￥3500"
+		}, {
+			"img": "./images/che03.gif",
+			"title": "雅迪电动车MK-",
+			"mean": "务实创新",
+			"money": "￥3200"
+		}, {
+			"img": "./images/che04.gif",
+			"title": "立马电动车欣欣",
+			"mean": "追求卓越",
+			"money": "￥3710"
+		}
+	],
+	"hotBrand01": [
+		{
+			"img": "./images/06.gif"
+		}, {
+			"img": "./images/07.gif"
+		}, {
+			"img": "./images/08.gif"
+		}, {
+			"img": "./images/09.gif"
+		}
+	],
+	"hotBrand02": [
+		 {
+			"img": "./images/006.gif"
+		}, {
+			"img": "./images/10.gif"
+		}, {
+			"img": "./images/11.gif"
+		}, {
+			"img": "./images/12.gif"
+		}
+	],
+	"hotVideo": [
+		{
+			"img": "./images/13.gif",
+			"title": "2016年百事利盛夏送"
+			
+		}, {
+			"img": "./images/14.gif",
+			"title": "2016年百事利盛夏送"
+		}, {
+			"img": "./images/15.gif",
+			"title": "2016年百事利盛夏送"
+		}
+	]
+}

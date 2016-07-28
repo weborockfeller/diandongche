@@ -10,7 +10,7 @@
 		<section class="brand">
 			<ul>
 				<li><a href="###">品牌</a></li>
-				<li><a href="###">筛选</a></li>
+				<li><a href="">筛选</a></li>
 			</ul>
 		</section>
 		<section id="pinpai">
@@ -30,28 +30,16 @@
 				</ul>
 			</section>
 			<nav>
-				<a href="###">电动车</a>
-				<a href="###">电动汽车</a>
-				<a href="###">电动三轮子</a>
+				<a href="javascript:;">电动车</a>
+				<a href="javascript:;">电动汽车</a>
+				<a href="javascript:;">电动三轮车</a>
 			</nav>
 
 			<section class="content">
-				<div>
-					<p>&nbsp;&nbsp;A</p>
+				<div ng-repeat="x in electrocar">
+					<p>&nbsp;&nbsp;{{x.pinyin}}</p>
 					<ul>
-						<li><img src="images/d_q/d_1.png" alt=""><span>爱玛电动车</span></li>
-						<li><img src="images/d_q/d_2.png" alt=""><span>阿米电动车</span></li>
-						<li><img src="images/d_q/d_3.png" alt=""><span>澳柯玛电动车</span></li>
-						<li><img src="images/d_q/d_4.png" alt=""><span>爱普奔集电动车</span></li>
-					</ul>
-				</div>
-				<div>
-					<p>&nbsp;&nbsp;B</p>
-					<ul>
-						<li><img src="images/d_q/d_5.png" alt=""><span>大奔电动车</span></li>
-						<li><img src="images/d_q/d_6.png" alt=""><span>奥迪电动车</span></li>
-						<li><img src="images/d_q/d_7.png" alt=""><span>钻石玛电动车</span></li>
-						<li><img src="images/d_q/d_8.png" alt=""><span>宝马奔集电动车</span></li>
+						<li ng-repeat="y in x.message"><img ng-src="{{y.img}}" alt=""><span>{{y.name}}</span></li>
 					</ul>
 				</div>
 			</section>

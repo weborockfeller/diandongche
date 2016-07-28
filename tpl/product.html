@@ -33,55 +33,10 @@
 		</li>
 	</div>
 	<div class="content">
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
-		</dl>
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
-		</dl>
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
-		</dl>
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
-		</dl>
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
-		</dl>
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
-		</dl>
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
-		</dl>
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
-		</dl>
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
-		</dl>
-		<dl>
-			<dt><img src="./images/product/product01.gif"/></dt>
-			<dd>本铃电摩800W电动车</dd>
-			<li>指导价：<span>5000</span></li>
+		<dl ng-repeat="x in products">
+			<dt><img ng-src="{{x.img}}"/></dt>
+			<dd>{{x.intro}}</dd>
+			<li>指导价：<span>{{x.money}}</span></li>
 		</dl>
 	</div>
 </section>

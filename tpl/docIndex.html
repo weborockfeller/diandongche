@@ -24,15 +24,15 @@
 	</li>
 </nav>
 <div id="banner" class="swiper-container">
-	
-	 <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="./images/banner04.png"/></div>
-        <div class="swiper-slide"><img src="./images/banner01.png"/></div>
-        <div class="swiper-slide"><img src="./images/banner.gif"/></div>
-    </div>
-    <!-- 如果需要分页器 -->
-    <div class="swiper-pagination"></div>
-	
+
+	<div class="swiper-wrapper">
+		<div class="swiper-slide" ng-repeat="x in slider"><img ng-src="{{x.img}}" /></div>
+		<!--<div class="swiper-slide"><img src="./images/banner01.png"/></div>
+        <div class="swiper-slide"><img src="./images/banner.gif"/></div>-->
+	</div>
+	<!-- 如果需要分页器 -->
+	<div class="swiper-pagination"></div>
+
 </div>
 <div id="hotNews">
 	<div class="title">
@@ -45,106 +45,14 @@
 		</li>
 		<li><img src="./images/jiao.gif" alt=""></li>
 	</div>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
+	<dl ng-repeat="x in hotNews">
+		<dd><img ng-src="{{x.img}}" alt=""></dd>
 
 		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
+			{{x.intro}}
 		</p>
 
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
-		<li>
-			<img src="./images/eye.gif" alt="">
-			<span>187</span>
-		</li>
-	</dl>
-	<dl>
-		<dd><img src="./images/01.gif" alt=""></dd>
-
-		<p>
-			爱尔威折叠电动车400万展示大视界 可放背包
-		</p>
-
-		<dt>2016-07-26</dt>
+		<dt>{{x.date}}</dt>
 		<li>
 			<img src="./images/eye.gif" alt="">
 			<span>187</span>
@@ -164,30 +72,30 @@
 	</div>
 	<div class="intro clearfixed">
 		<div class="left">
-			<dd>爱玛电动车MINI家族A-16A</dd>
-			<dt>创新为本</dt>
-			<span>￥2600</span>
-			<li><img src="./images/che02.gif" alt=""></li>
+			<dd>{{hotCarType[0].title}}</dd>
+			<dt>{{hotCarType[0].mean}}</dt>
+			<span>{{hotCarType[0].money}}</span>
+			<li><img ng-src="{{hotCarType[0].img}}" alt=""></li>
 		</div>
 		<div class="right">
 			<div class="right-top">
-				<dd>新日电动车雅客</dd>
-				<dt>感受阳光</dt>
-				<span>￥3500</span>
-				<li><img src="./images/che01.gif" alt=""></li>
+				<dd>{{hotCarType[1].title}}</dd>
+				<dt>{{hotCarType[1].mean}}</dt>
+				<span>{{hotCarType[1].money}}</span>
+				<li><img ng-src="{{hotCarType[1].img}}" alt=""></li>
 			</div>
 			<div class="right-bottom clearfixed">
 				<div class="yadi">
-					<dd>雅迪电动车MK-</dd>
-					<dt>务实创新</dt>
-					<span>￥3200</span>
-					<li><img src="./images/che03.gif" alt=""></li>
+					<dd>{{hotCarType[2].title}}</dd>
+					<dt>{{hotCarType[2].mean}}</dt>
+					<span>{{hotCarType[2].money}}</span>
+					<li><img ng-src="{{hotCarType[2].img}}" alt=""></li>
 				</div>
 				<div class="lima">
-					<dd>立马电动车欣欣</dd>
-					<dt>追求卓越</dt>
-					<span>￥3710</span>
-					<li><img src="./images/che04.gif" alt=""></li>
+					<dd>{{hotCarType[3].title}}</dd>
+					<dt>{{hotCarType[3].mean}}</dt>
+					<span>{{hotCarType[3].money}}</span>
+					<li><img ng-src="{{hotCarType[3].img}}" alt=""></li>
 				</div>
 			</div>
 		</div>
@@ -205,17 +113,11 @@
 		<li><img src="./images/jiao.gif" alt=""></li>
 	</div>
 
-	<div class="brand-top">
-		<div><img src="./images/06.gif" alt=""></div>
-		<div><img src="./images/07.gif" alt=""></div>
-		<div><img src="./images/08.gif" alt=""></div>
-		<div><img src="./images/09.gif" alt=""></div>
+	<div class="brand-top" >
+		<div ng-repeat="x in hotBrand01"><img ng-src="{{x.img}}" alt=""></div>
 	</div>
 	<div class="brand-bottom">
-		<div><img src="./images/006.gif" alt=""></div>
-		<div><img src="./images/10.gif" alt=""></div>
-		<div><img src="./images/11.gif" alt=""></div>
-		<div><img src="./images/12.gif" alt=""></div>
+		<div ng-repeat="x in hotBrand02"><img ng-src="{{x.img}}" alt=""></div>
 	</div>
 
 </div>
@@ -231,17 +133,9 @@
 		<li><img src="./images/jiao.gif" alt=""></li>
 	</div>
 	<div class="video">
-		<div>
-			<dd><img src="./images/13.gif" alt=""></dd>
-			<dt>2016年百事利盛夏送</dt>
-		</div>
-		<div>
-			<dd><img src="./images/14.gif" alt=""></dd>
-			<dt>2016年百事利盛夏送</dt>
-		</div>
-		<div>
-			<dd><img src="./images/15.gif" alt=""></dd>
-			<dt>2016年百事利盛夏送</dt>
+		<div ng-repeat="x in hotVideo">
+			<dd><img ng-src="{{x.img}}" alt=""></dd>
+			<dt>{{x.title}}</dt>
 		</div>
 	</div>
 </div>

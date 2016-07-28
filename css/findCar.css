@@ -68,6 +68,10 @@ header{
 	background: #fff;
 	margin-top: 0.236111rem;
 	height: 3.575rem;
+	
+}
+nav a,.hot a{
+	color: #AAAAAA;
 }
 .hot>div{
 	margin-left: 0.277778rem;
@@ -117,6 +121,7 @@ nav>span{
 .content{
 	width: 100%;
 	background: #fff;
+	margin-bottom: 1.5rem;
 }
 .content>div>p{
 	height: 0.833333rem;
@@ -230,14 +235,15 @@ nav>span{
 #fix{
 	position: fixed;
 	z-index: 1;
-	top: 1.5rem;
+	top: 2rem;
 	right: 0.1rem;
 }
 
 #fix>a{
 	display: block;
-	font-size: 13px;
-	margin-top: 0.15rem;
+	font-size: 12px;
+	margin-top: 0.1rem;
+	color: #34AECF;
 }
 
 /*找车的大页面*/
