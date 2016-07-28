@@ -1,0 +1,23 @@
+			*{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                width: 10rem;
+                background: #F4F4F4;
+            }
+            li{
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+            }
+            .clearfixed:after{
+                display: block;
+                clear: both;
+                height: 0;
+                overflow: hidden;
+                content: "";
+                zoom: 1;
+            }
+            

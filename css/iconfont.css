@@ -1,0 +1,13 @@
+@font-face{
+    font-family:iconfont;
+    src:url(iconfont.eot?v=2.0.1);
+    src:url(iconfont.eot?v=2.0.1#iefix) format("embedded-opentype"),
+        url(iconfont.ttf?v=2.0.1) format("truetype"),
+        url(iconfont.woff?v=2.0.1) format("woff"),
+        url(iconfont.woff) format("woff"),
+        url(iconfont.svg?v=2.0.1#iconfont) format("svg");
+        font-weight:400;
+        font-style:normal
+    }
+
+

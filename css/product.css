@@ -1,0 +1,71 @@
+html{
+    font-family: "微软雅黑";
+}
+section{
+	margin-bottom: 1.55rem;
+}
+section .fenlei{
+	width: 10rem;
+	height: 0.944444rem;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1.85rem;
+	background: white;
+	line-height:  0.944444rem;
+	position: fixed;
+	z-index: 5;
+	left: 0;
+	top: 0;
+}
+section .fenlei a{
+	color: #888888;
+}
+section .fenlei li:nth-child(2){
+	color: #f1f1f1;
+	font-size: 0.6rem;
+}
+section .fenlei li:nth-child(1){
+	margin-left: 0.9rem;
+}
+section .fenlei li:nth-child(3){
+	margin-right: 0.9rem;
+}
+section .content{
+	margin-top: 0.85rem;
+}
+section .content dl{
+	position: relative;
+	width: 10rem;
+	height: 2.014rem;
+}
+section .content dl dd,
+section .content dl dt,
+section .content dl li{
+	position: absolute;
+}
+section .content dl dt{
+	top: 0.278rem;
+    left: 0.222rem;
+}
+section .content dl dt img{
+	width: 3.153rem;
+    height: 1.556rem;
+}
+section .content dl dd{
+	top: 0.514rem;
+    left: 3.75rem;
+    color: #3C3C3C;
+    font-size: 0.347rem;
+}
+section .content dl li{
+	top: 1.194rem;
+    left: 3.75rem;
+    font-size: 0.278rem;
+    color: #A0A0A0;
+}
+section .content dl li span{
+    color: red;
+}
+section .content dl{
+	border-top: 1px solid #ebebeb;
+}

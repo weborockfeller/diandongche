@@ -1,0 +1,14 @@
+body{
+    width: 10rem;
+    /*height: 19.390625rem;*/
+}
+section{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(../images/welcome01.gif) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}

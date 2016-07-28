@@ -1,0 +1,46 @@
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 10rem;
+	height:1.441667rem;
+	background: #f8f8f8;
+	border-top: 1px solid grey;
+	display: flex;
+	justify-content: space-around;
+	font-size:0.308333rem;
+	z-index: 5;
+	 
+}
+
+footer a {
+	color: #606060;
+}
+
+footer dl:first-child a {
+	color: #069cc4;
+}
+
+footer img {
+	width: 0.805556rem;
+	height: 0.625rem;
+	margin-top: 0.10rem;
+}
+
+footer dl:nth-child(3) img {
+	margin-left: -0.05rem;
+}
+
+footer dl:nth-child(2) img {
+	margin-left: -0.05rem;
+}
+
+footer dl:nth-child(4) img {
+	margin-left: -0.2rem;
+	
+}
+
+footer dl:nth-child(1) img {
+	margin-left: -0.07rem;
+}

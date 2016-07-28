@@ -1,0 +1,61 @@
+
+section{
+	width: 10rem;
+	margin-top: 1.85rem;
+	margin-bottom: 1.55rem;
+}
+section dl {
+	height: 2.361111rem;
+	width: 10rem;
+	background: white;
+	position: relative;
+	margin-top: 2px;
+}
+
+section dl dd,
+section dl p,
+section dl dt,
+section dl li {
+	position: absolute;
+}
+
+section dl dd {
+	left: 0.208333rem;
+	top: 0.208333rem;
+}
+
+section dl dd img {
+	width: 2.916667rem;
+	height: 1.930556rem;
+}
+
+section dl p {
+	width: 5.944444rem;
+	height: 0.944444rem;
+	font-size: 0.34rem;
+	color: #3F3F3F;
+	font-weight: bold;
+	left: 3.75rem;
+	top: 0.319444rem;
+	line-height: 0.55rem;
+}
+
+section dl dt {
+	left: 3.75rem;
+	top: 1.388889rem;
+	font-size: 0.277778rem;
+	margin-top: 0.2rem;
+	color: #ACACAC;
+}
+
+section dl li {
+	top: 1.25rem;
+	right: 0.208333rem;
+	color: #ACACAC;
+	margin-top: 0.2rem;
+}
+
+section dl li img {
+	width: 0.402778rem;
+	height: 0.180556rem;
+}

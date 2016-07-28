@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+}
+
+#weixin{
+	width: 100%;
+	position: relative;
+
+}
+
+#weixin:before{
+	content: "";
+	display: block;
+	height: 15.7rem;
+	background: rgba(0,0,0,0.1);
+}
+
+#weixin>div{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+}
+
+#weixin>div>ul{
+	width: 100%;
+	background: #f8f8f8;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#weixin>div>ul>li{
+	width: 25%;
+	list-style: none;
+}
+
+#weixin>div>ul>li:before{
+	content: "";
+	display: block;
+	height: 0.333rem;
+}
+
+#weixin>div>ul>li>img{
+	width: 36.2%;
+	margin: 0 31.9%;
+}
+
+#weixin>div>ul>li>p{
+	width: 100%;
+	text-align: center;
+	font-size: 0.278rem;
+	line-height: 2;
+	color: #a9a9a9;
+}
+
+#weixin>div>h3{
+	text-align: center;
+	background: #e9e9e9;
+	font-size: 0.278rem;
+	line-height: 3.5;
+	font-weight: 500;
+	color: #2b6fce;
+}

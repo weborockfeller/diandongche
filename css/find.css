@@ -1,0 +1,59 @@
+header{
+	width: 10rem;
+	height: 1rem;
+	background: #069CC4;
+	color: white;
+	font-size: 0.417rem;
+	font-family: "微软雅黑";
+	line-height: 1rem;
+	text-align: center;
+	font-weight: bold;
+}
+section{
+    width: 10rem;
+    height: 1.181rem;
+    position: relative;
+    background: #EBEBEB;
+    border-bottom:1px solid #DFE0E0;
+}
+section input{
+    width: 9.556rem;
+    height: 0.75rem;
+    background: white;
+    margin-top: 0.208rem;
+    margin-left: 0.208rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border:none;
+    font-size: 0.278rem;
+}
+section img{
+	position: absolute;
+	right: 0.4rem;
+	top: 0.218rem;
+    width: 0.722rem;
+    height: 0.639rem;
+}
+#nearly{
+	height: 1.056rem;
+    width: 10rem;
+    background: white;
+    margin-top: 0.333rem;
+    border-top:1px solid #DFE0E0;
+    font-size: 0.319rem;
+    color: #8C8C8C;
+    border-bottom:1px solid #DFE0E0;
+}
+#nearly img{
+    width: 0.611rem;
+    height: 0.556rem;
+    margin-left: 0.431rem;
+    margin-top: 0.236rem;
+    vertical-align: -0.1rem;
+    margin-right: 0.236rem;
+}
+#nearly span{
+    margin-left: 3rem;
+    font-size: 0.4rem;
+    color: #BDBDBD;
+}

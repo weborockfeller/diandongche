@@ -1,0 +1,279 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	font-family: "微软雅黑";
+	background: #F8F8F8;
+	font-size: 16px;
+}
+body{
+	/*overflow: hidden;*/
+	/*width: 10rem;
+	overflow: hidden;*/
+	width: 10rem;
+	/*overflow: hidden;*/
+}
+#hiden{
+	width: 10rem;
+	overflow: hidden;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.qing:after{
+	content: "";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+	zoom : 1;
+}
+
+
+header{
+	width: 10.0rem;
+	height: 0.972222rem;
+	line-height: 0.972222rem;
+	text-align: center;
+	color: #fff;
+	background: #069CC4;
+	font-weight: bold;
+	font-size: 16px;
+	/*font-size: 0.402778rem;*/
+}
+.brand{
+	width: 10rem;
+	background: #fff;
+}
+.brand>ul{
+	height: 0.861111rem;
+	display: flex;
+	justify-content: space-around;
+}
+.brand>ul>li{
+	font-size: 15px;
+	line-height: 0.861111rem;
+}
+.brand>ul>li>a{	
+	color: #8A8A8A;
+
+}
+
+.hot{
+	background: #fff;
+	margin-top: 0.236111rem;
+	height: 3.575rem;
+}
+.hot>div{
+	margin-left: 0.277778rem;
+	margin-top: 0.25rem;
+}
+.hot>div>span{
+	font-size: 17px;
+	color: #39C6EC;
+	font-weight: bold;
+}
+.hot>ul{
+	margin-left: 0.402778rem;
+	width: 8.3rem;
+}
+.hot>ul>li{
+	width: 1.736111rem;
+	height: 0.861111rem;
+	background: #F8F8F8;
+	font-size: 14px;
+	float: left;
+	margin-left: 0.236111rem;
+	text-align: center;
+	line-height: 0.861111rem;
+	margin-top: 0.236111rem;
+}
+.hot>ul>li:last-child{
+	width: 2.0rem;
+}
+
+nav{
+	width: 10rem;
+	display: flex;
+	justify-content: space-around;
+	background: #fff;
+	font-size: 14px;
+	margin-top: 0.277778rem;
+	height: 0.875rem;
+	line-height: 0.875rem;
+}
+nav>span{
+	display: block;
+	width: 240px;
+	text-align: center;
+}
+
+.content{
+	width: 100%;
+	background: #fff;
+}
+.content>div>p{
+	height: 0.833333rem;
+	font-size: 14px;
+	line-height: 0.833333rem;
+	background: #F4F4F4;
+	border-bottom: 2px solid #DDDDDD;
+	border-top: 2px solid #ddd;
+}
+.content>div>ul{
+	margin-left: 0.402778rem;	
+}
+.content>div>ul>li{
+	font-size: 14px;
+	border-bottom: 1px solid #F4F4F4;
+	height: 1.430556rem;
+	display: flex;
+	align-items: center;
+	color: #777777;
+}
+.content>div>ul>li>img{
+	width: 1.5rem;
+}
+.content>div>ul>li>span{
+	margin-left: 0.347222rem;
+}
+
+/*隐藏品牌*/
+#pinpai{
+	/*display: none;*/
+}
+/*隐藏选择*/
+#xuanze{
+	display: none;
+}
+
+/*条件*/
+#xuanze>div>p{
+	color: #7A7A7A;
+	font-size: 14px;
+	height: 0.763889rem;
+	line-height: 0.763889rem;
+	background: #F4F4F4;
+}
+#xuanze>div>ul{
+	background: #fff;
+}
+#xuanze>div>ul>li{
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+	height: 0.972222rem;
+	line-height: 0.972222rem;
+	border-bottom: 1px solid #E0E0E0;
+}
+#xuanze>div>ul>li>textarea{
+	border: none;
+	float: right;
+	margin-right: 0.8rem;
+	margin-top: 0.26rem;
+}
+#xuanze>div>ul>li:first-child{
+	margin-left: 0.319444rem;
+}
+#xuanze>div>ul>li:first-child>span{
+	margin-left: 0.358333rem;
+}
+#xuanze>div>ul>li:last-child>span{
+	margin-left: 0.66rem;
+}
+#xuanze>div>ul>li:last-child>p{
+	height: 0.316667rem;
+	width: 0.316rem;
+	/*border: 1px solid red;*/
+	border-right: 2px solid #A1A1A1;
+	border-top: 2px solid #A1A1A1;
+	float: right;
+	margin-right: 0.8rem;
+	transform : rotate(45deg);
+	margin-top: 0.3rem;
+}
+/*电车的价格*/
+#price{
+	float: right;
+	/*margin-right:  .8rem;*/
+	font-weight: normal;
+	color: #A9A9A9;
+	margin-right: 0.05rem;
+}
+
+#xuanze>h3{
+	margin:  auto;
+	font-size: 14px;
+	color: #fff;
+	width: 8.986111rem;
+	height: 0.930556rem;
+	background: #069CC4;
+	text-align: center;
+	line-height: 0.930556rem;
+	margin-top: 0.527778rem;
+}
+
+#da>section{
+	float: left;
+}
+#da{
+	width: 14.45rem;
+}
+
+/*A-Z的固定*/
+#fix{
+	position: fixed;
+	z-index: 1;
+	top: 1.5rem;
+	right: 0.1rem;
+}
+
+#fix>a{
+	display: block;
+	font-size: 13px;
+	margin-top: 0.15rem;
+}
+
+/*找车的大页面*/
+#zhaoche{
+
+}
+
+/*车的价格大页面*/
+#car_money{
+	border:2px solid #eee;
+	border-top: none;
+	/*display: none;*/
+	height: 100%;
+}
+
+
+/*第二个页面*/
+#car_money{
+	width: 4.319444rem;
+	background: #fff;
+}
+#car_money>p:first-child{
+	height: 0.972222rem;
+	line-height: 0.972222rem;
+	text-align: center;
+	color: #666666;
+	background: #F6F6F6;
+	font-size: 16px;
+}
+#car_money>p:nth-child(2){
+	background: #CACACA;
+	height: 0.861111rem;
+}
+#car_money>ul>li{
+	font-size: 12px;
+	height: 0.847222rem;
+	line-height: 0.847222rem;
+	border-bottom: 1px solid #F4F4F4;
+	color: #A0A0A0;
+}

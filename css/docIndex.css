@@ -1,0 +1,616 @@
+/* 
+* @Author: anchen
+* @Date:   2016-07-26 15:40:50
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-07-26 21:08:14
+*/
+
+header {
+	width: 10rem;
+	height: 0.972222rem;
+	background: #069cc4;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+}
+
+header li:nth-child(1) img {
+	width: 2.777778rem;
+	height: 0.833333rem;
+}
+
+header li:nth-child(2) input {
+	width: 5.486111rem;
+	height: 0.666667rem;
+	background: #42b0cd;
+	color: #cccccc;
+	outline: none;
+	border: none;
+	border-radius: 0.2rem;
+	font-size: 0.377778rem;
+}
+
+header li:nth-child(2) {
+	margin-top: 0.194444rem;
+}
+
+header li:nth-child(3) img {
+	width: 0.833333rem;
+	height: 0.569444rem;
+	margin-top: 0.194444rem;
+}
+
+nav {
+	width: 10rem;
+	height: 0.902778rem;
+	background: #069cc4;
+	display: flex;
+	justify-content: flex-start;
+	/*border-top: 1px solid #028EB3;*/
+	position: fixed;
+	z-index: 5;
+	top: 0.972222rem;
+	left: 0;
+}
+
+nav li {
+	width: 1.572222rem;
+	height: 0.902778rem;
+	line-height: 0.902778rem;
+	text-align: center;
+}
+
+nav li a {
+	color: white;
+	font-family: "微软雅黑";
+}
+
+#banner {
+	width: 10rem;
+	height: 5.833333rem;
+	background: red;
+	/*overflow: hidden;*/
+	margin-top: 1.85rem;
+}
+
+#banner img {
+	width: 10rem;
+	height: 5.833333rem;
+}
+#banner .swiper-slide{
+	width: 10rem;
+	height: 5.833333rem;
+}
+#hotNews {
+	width: 10rem;
+	margin-top: 0.138889rem;
+	/*margin-bottom: 1.5rem;*/
+}
+
+#hotNews .title {
+	height: 0.805556rem;
+	width: 10rem;
+	background: white;
+	position: relative;
+	margin-bottom: 0.15rem;
+}
+
+#hotNews .title div {
+	width: 0.166667rem;
+	height: 0.805556rem;
+	background: #39808F;
+	position: absolute;
+}
+
+#hotNews .title li:nth-child(2) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	font-weight: bold;
+	left: 0.277778rem;
+}
+
+#hotNews .title li:nth-child(2) a {
+	font-size: 0.375rem;
+	color: black;
+	font-family: "微软雅黑";
+}
+
+#hotNews .title li:nth-child(3) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	right: 0.763889rem;
+}
+
+#hotNews .title li:nth-child(3) a {
+	color: #BFBFBF;
+}
+
+#hotNews .title li:nth-child(4) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.1rem;
+}
+
+#hotNews dl {
+	height: 2.361111rem;
+	width: 10rem;
+	background: white;
+	position: relative;
+	margin-top: 2px;
+}
+
+#hotNews dl dd,
+#hotNews dl p,
+#hotNews dl dt,
+#hotNews dl li {
+	position: absolute;
+}
+
+#hotNews dl dd {
+	left: 0.208333rem;
+	top: 0.208333rem;
+}
+
+#hotNews dl dd img {
+	width: 2.916667rem;
+	height: 1.930556rem;
+}
+
+#hotNews dl p {
+	width: 5.944444rem;
+	height: 0.944444rem;
+	font-size: 0.34rem;
+	color: #3F3F3F;
+	font-weight: bold;
+	left: 3.75rem;
+	top: 0.319444rem;
+	line-height: 0.55rem;
+}
+
+#hotNews dl dt {
+	left: 3.75rem;
+	top: 1.388889rem;
+	font-size: 0.277778rem;
+	margin-top: 0.2rem;
+	color: #ACACAC;
+}
+
+#hotNews dl li {
+	top: 1.25rem;
+	right: 0.208333rem;
+	color: #ACACAC;
+	margin-top: 0.2rem;
+}
+
+#hotNews dl li img {
+	width: 0.402778rem;
+	height: 0.180556rem;
+}
+
+#hotCarType {
+	height: 5.972222rem;
+	width: 10rem;
+	margin-top: 0.277778rem;
+}
+
+#hotCarType .title {
+	height: 0.805556rem;
+	width: 10rem;
+	background: white;
+	position: relative;
+	margin-bottom: 0.15rem;
+}
+
+#hotCarType .title div {
+	width: 0.166667rem;
+	height: 0.805556rem;
+	background: #FF4400;
+	position: absolute;
+}
+
+#hotCarType .title li:nth-child(2) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	font-weight: bold;
+	left: 0.277778rem;
+}
+
+#hotCarType .title li:nth-child(2) a {
+	font-size: 0.375rem;
+	color: black;
+	font-family: "微软雅黑";
+}
+
+#hotCarType .title li:nth-child(3) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	right: 0.763889rem;
+}
+
+#hotCarType .title li:nth-child(3) a {
+	color: #BFBFBF;
+}
+
+#hotCarType .title li:nth-child(4) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.1rem;
+}
+
+#hotCarType .intro {
+	height: 5.069444rem;
+	width: 10rem;
+}
+
+#hotCarType .intro .left {
+	width: 4.486111rem;
+	height: 5.069444rem;
+	background: white;
+	float: left;
+	position: relative;
+}
+
+#hotCarType .intro .left dd {
+	top: 0.458333rem;
+	left: 0.333333rem;
+	font-family: "微软雅黑";
+	font-size: 0.305556rem;
+	color: #FF4400;
+	font-weight: bold;
+}
+
+#hotCarType .intro .left dt {
+	top: 0.916667rem;
+	left: 0.333333rem;
+	font-size: 0.25rem;
+	color: #9E9E9E;
+}
+
+#hotCarType .intro .left span {
+	top: 1.555556rem;
+	left: 0.333333rem;
+	display: block;
+	z-index: 2;
+	width: 1.111111rem;
+	height: 0.458333rem;
+	line-height: 0.458333rem;
+	text-align: center;
+	background: #FF4400;
+	color: white;
+	font-size: 0.305556rem;
+	border-radius: 0.1rem;
+}
+
+#hotCarType .intro .left li {
+	bottom: 0;
+}
+
+#hotCarType .intro .left li img {
+	width: 4.472222rem;
+	height: 3.555556rem;
+}
+
+#hotCarType .intro .right {
+	width: 5.472222rem;
+	height: 5.069444rem;
+	float: right;
+}
+
+#hotCarType .intro .right .right-top {
+	height: 1.902778rem;
+	width: 5.472222rem;
+	background: white;
+	position: relative;
+}
+
+#hotCarType .intro .right-top dd {
+	top: 0.25rem;
+	left: 0.333333rem;
+	font-family: "微软雅黑";
+	font-size: 0.305556rem;
+	color: #FF4400;
+	font-weight: bold;
+}
+
+#hotCarType .intro .right-top dt {
+	top: 0.694444rem;
+	left: 0.333333rem;
+	font-size: 0.25rem;
+	color: #9E9E9E;
+}
+
+#hotCarType .intro .right-top span {
+	top: 1.291667rem;
+	left: 0.972222rem;
+	display: block;
+	z-index: 2;
+	width: 1.111111rem;
+	height: 0.458333rem;
+	line-height: 0.458333rem;
+	text-align: center;
+	background: #FF4400;
+	color: white;
+	font-size: 0.305556rem;
+	border-radius: 0.1rem;
+}
+
+#hotCarType .intro .right-top li {
+	right: 0;
+}
+
+#hotCarType .intro .right-top li img {
+	width: 1.608333rem;
+}
+
+#hotCarType .intro .right .right-bottom {
+	height: 3.111111rem;
+	width: 5.472222rem;
+	margin-top: 0.05rem;
+}
+
+#hotCarType .intro .yadi {
+	width: 2.708333rem;
+	height: 3.111111rem;
+	float: left;
+	background: white;
+	position: relative;
+}
+
+#hotCarType .intro .yadi dd {
+	top: 0.277778rem;
+	left: 0.333333rem;
+	font-family: "微软雅黑";
+	font-size: 0.305556rem;
+	color: #FF4400;
+	font-weight: bold;
+}
+
+#hotCarType .intro .yadi dt {
+	top: 0.666667rem;
+	left: 0.333333rem;
+	font-size: 0.25rem;
+	color: #9E9E9E;
+}
+
+#hotCarType .intro .yadi span {
+	top: 1.041667rem;
+	left: 0.333333rem;
+	display: block;
+	z-index: 2;
+	width: 1.111111rem;
+	height: 0.458333rem;
+	line-height: 0.458333rem;
+	text-align: center;
+	background: #FF4400;
+	color: white;
+	font-size: 0.305556rem;
+	border-radius: 0.1rem;
+}
+
+#hotCarType .intro .yadi li {
+	bottom: 0;
+}
+
+#hotCarType .intro .yadi li img {
+	width: 2.736111rem;
+	height: 1.513889rem;
+}
+
+#hotCarType .intro .lima {
+	width: 2.7rem;
+	height: 3.111111rem;
+	float: right;
+	background: white;
+	position: relative;
+}
+
+#hotCarType .intro .lima dd {
+	top: 0.583333rem;
+	left: 0.333333rem;
+	font-family: "微软雅黑";
+	font-size: 0.305556rem;
+	color: #FF4400;
+	font-weight: bold;
+}
+
+#hotCarType .intro .lima dt {
+	top: 1.013889rem;
+	left: 0.333333rem;
+	font-size: 0.25rem;
+	color: #9E9E9E;
+}
+
+#hotCarType .intro .lima span {
+	top: 1.0rem;
+	left: 1.458333rem;
+	display: block;
+	z-index: 2;
+	width: 1.111111rem;
+	height: 0.458333rem;
+	line-height: 0.458333rem;
+	text-align: center;
+	background: #FF4400;
+	color: white;
+	font-size: 0.305556rem;
+	border-radius: 0.1rem;
+}
+
+#hotCarType .intro .lima li {
+	bottom: 0;
+}
+
+#hotCarType .intro .lima li img {
+	width: 2.222222rem;
+	height: 1.513889rem;
+}
+
+#hotCarType .intro dd,
+#hotCarType .intro dt,
+#hotCarType .intro span,
+#hotCarType .intro li {
+	position: absolute;
+}
+
+#hotBrand {
+	height: 5.861111rem;
+	width: 10rem;
+	margin-top: 0.347222rem;
+}
+
+#hotBrand .title {
+	height: 0.805556rem;
+	width: 10rem;
+	background: white;
+	position: relative;
+	margin-bottom: 0.05rem;
+}
+
+#hotBrand .title div {
+	width: 0.166667rem;
+	height: 0.805556rem;
+	background: #019241;
+	position: absolute;
+}
+
+#hotBrand .title li:nth-child(2) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	font-weight: bold;
+	left: 0.277778rem;
+}
+
+#hotBrand .title li:nth-child(2) a {
+	font-size: 0.375rem;
+	color: black;
+	font-family: "微软雅黑";
+}
+
+#hotBrand .title li:nth-child(3) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	right: 0.763889rem;
+}
+
+#hotBrand .title li:nth-child(3) a {
+	color: #BFBFBF;
+}
+
+#hotBrand .title li:nth-child(4) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.1rem;
+}
+
+#hotBrand .brand-top,
+#hotBrand .brand-bottom {
+	height: 2.444444rem;
+	width: 10rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+#hotBrand .brand-top div,
+#hotBrand .brand-bottom div {
+	width: 2.44rem;
+	height: 2.4rem;
+	background: white;
+}
+
+#hotBrand .brand-top img,
+#hotBrand .brand-bottom img {
+	width: 2.44rem;
+	height: 2.4rem;
+}
+
+#hotVideo {
+	height: 3.638889rem;
+	width: 10rem;
+	margin-bottom: 2rem;
+}
+
+#hotVideo .title {
+	height: 0.805556rem;
+	width: 10rem;
+	background: white;
+	position: relative;
+	margin-bottom: 0.1rem;
+}
+
+#hotVideo .title div {
+	width: 0.166667rem;
+	height: 0.805556rem;
+	background: #00B0EA;
+	position: absolute;
+}
+
+#hotVideo .title li:nth-child(2) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	font-weight: bold;
+	left: 0.277778rem;
+}
+
+#hotVideo .title li:nth-child(2) a {
+	font-size: 0.375rem;
+	color: black;
+	font-family: "微软雅黑";
+}
+
+#hotVideo .title li:nth-child(3) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	right: 0.763889rem;
+}
+
+#hotVideo .title li:nth-child(3) a {
+	color: #BFBFBF;
+}
+
+#hotVideo .title li:nth-child(4) {
+	height: 0.805556rem;
+	line-height: 0.805556rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.1rem;
+}
+
+#hotVideo .video {
+	height: 2.75rem;
+	width: 10rem;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+#hotVideo .video div {
+	color: #818181;
+	font-size: 0.277778rem;
+	text-align: center;
+}
+
+#hotVideo .video div img {
+	width: 2.875rem;
+	height: 1.722222rem;
+	margin-top: 0.3rem;
+}
+
+#hotVideo .video dt {
+	margin-top: 0.15rem;
+}

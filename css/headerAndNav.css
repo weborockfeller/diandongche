@@ -1,0 +1,62 @@
+header {
+	width: 10rem;
+	height: 0.972222rem;
+	background: #069cc4;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+}
+
+header li:nth-child(1) img {
+	width: 2.777778rem;
+	height: 0.833333rem;
+}
+
+header li:nth-child(2) input {
+	width: 5.486111rem;
+	height: 0.666667rem;
+	background: #42b0cd;
+	color: #cccccc;
+	outline: none;
+	border: none;
+	border-radius: 0.2rem;
+	font-size: 0.377778rem;
+}
+
+header li:nth-child(2) {
+	margin-top: 0.194444rem;
+}
+
+header li:nth-child(3) img {
+	width: 0.833333rem;
+	height: 0.569444rem;
+	margin-top: 0.194444rem;
+}
+
+nav {
+	width: 10rem;
+	height: 0.902778rem;
+	background: #069cc4;
+	display: flex;
+	justify-content: flex-start;
+	/*border-top: 1px solid #028EB3;*/
+	position: fixed;
+	z-index: 5;
+	top: 0.972222rem;
+	left: 0;
+}
+
+nav li {
+	width: 1.572222rem;
+	height: 0.902778rem;
+	line-height: 0.902778rem;
+	text-align: center;
+}
+
+nav li a {
+	color: white;
+	font-family: "微软雅黑";
+}
