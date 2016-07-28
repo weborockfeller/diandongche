@@ -303,7 +303,7 @@ body{
 	height: 100%;	
 	display: none;
 	background: rgba(0,0,0,0.2);
-
+	z-index: 10;
 }
 
 #weixin:before{
