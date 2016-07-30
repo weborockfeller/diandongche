@@ -2,101 +2,102 @@
 	<link rel="stylesheet" type="text/css" href="css/findCar.css">
 
 <section id="hiden">
-<section id="da" class="qing">
-	<section id="zhaoche">
-	 	<header>
-			找车
-		</header>
-		<section class="brand">
-			<ul>
-				<li><a href="javascript:;">品牌</a></li>
-				<li><a href="javascript:;">筛选</a></li>
-			</ul>
-		</section>
-		<section id="pinpai">
-			<section class="hot">
-				<div>
-					<img src="images/fixed/huo.png" alt=""><span>&nbsp;&nbsp;热销车</span>			
-				</div>
+	<section id="da" class="qing">
+		<section id="zhaoche">
+		 	<header>
+				找车
+			</header>
+			<section class="brand">
 				<ul>
-					<li><a href="javascript:;">源</a></li>
-					<li><a href="javascript:;">雅迪</a></li>
-					<li><a href="javascript:;">小刀</a></li>
-					<li><a href="javascript:;">新日</a></li>
-					<li><a href="javascript:;">台铃</a></li>
-					<li><a href="javascript:;">爱玛</a></li>
-					<li><a href="javascript:;">奔的</a></li>
-					<li><a href="javascript:;">比德文</a></li>
+					<li><a href="">品牌</a></li>
+					<li><a href="">筛选</a></li>
 				</ul>
 			</section>
-			<nav>
-				<a href="javascript:;">电动车</a>
-				<a href="javascript:;">电动汽车</a>
-				<a href="javascript:;">电动三轮车</a>
-			</nav>
-
-			<section class="content">
-				<div ng-repeat="x in electrocar">
-					<p>&nbsp;&nbsp;{{x.pinyin}}</p>
+			<section id="pinpai">
+				<section class="hot">
+					<div>
+						<img src="images/fixed/huo.png" alt=""><span>&nbsp;&nbsp;热销车</span>			
+					</div>
 					<ul>
-						<li ng-repeat="y in x.message"><img ng-src="{{y.img}}" alt=""><span>{{y.name}}</span></li>
+						<li><a href="###">源</a></li>
+						<li><a href="###">雅迪</a></li>
+						<li><a href="###">小刀</a></li>
+						<li><a href="###">新日</a></li>
+						<li><a href="###">台铃</a></li>
+						<li><a href="###">爱玛</a></li>
+						<li><a href="###">奔的</a></li>
+						<li><a href="###">比德文</a></li>
+					</ul>
+				</section>
+				<nav>
+					<a href="">电动车</a>
+					<a href="">电动汽车</a>
+					<a href="">电动三轮子</a>
+				</nav>
+
+				<section class="content">
+					<div ng-repeat="i in arr">
+						<p>&nbsp;&nbsp;{{i.pinyin}}</p>
+						<ul>
+							<li ng-repeat="a in i.message"><img src="{{a.img}}" alt=""><span>{{a.name}}</span></li>
+							<li><img src="images/d_q/d_2.png" alt=""><span>阿米电动车</span></li>
+						</ul>
+					</div>
+				</section>
+
+				<section id="fix">
+					<a href="">A</a>
+					<a href="">B</a>
+					<a href="">C</a>
+					<a href="">D</a>
+					<a href="">E</a>
+					<a href="">F</a>
+					<a href="">G</a>
+					<a href="">H</a>
+					<a href="">I</a>
+					<a href="">J</a>
+					<a href="">K</a>
+					<a href="">L</a>
+					<a href="">M</a>
+					<a href="">N</a>
+					<a href="">O</a>
+					<a href="">P</a>
+					<a href="">Q</a>
+					<a href="">R</a>
+					<a href="">S</a>
+					<a href="">T</a>
+					<a href="">W</a>
+					<a href="">X</a>
+					<a href="">Y</a>
+					<a href="">Z</a>
+				</section>
+			</section>
+			<section id="xuanze">
+				<div>
+					<p>&nbsp;&nbsp;&nbsp;筛选条件</p>
+					<ul>
+						<li class="qing"><span>关键字</span><textarea cols="30" rows="1" placeholder="请输入价格"></textarea></li>
+						<li class="qing"><span>价格</span><p></p><span id="price">不限</span></li>
 					</ul>
 				</div>
-			</section>
-
-			<section id="fix">
-				<a href="">A</a>
-				<a href="">B</a>
-				<a href="">C</a>
-				<a href="">D</a>
-				<a href="">E</a>
-				<a href="">F</a>
-				<a href="">G</a>
-				<a href="">H</a>
-				<a href="">I</a>
-				<a href="">J</a>
-				<a href="">K</a>
-				<a href="">L</a>
-				<a href="">M</a>
-				<a href="">N</a>
-				<a href="">O</a>
-				<a href="">P</a>
-				<a href="">Q</a>
-				<a href="">R</a>
-				<a href="">S</a>
-				<a href="">T</a>
-				<a href="">W</a>
-				<a href="">X</a>
-				<a href="">Y</a>
-				<a href="">Z</a>
+				<h3>确定</h3>
 			</section>
 		</section>
-		<section id="xuanze">
-			<div>
-				<p>&nbsp;&nbsp;&nbsp;筛选条件</p>
-				<ul>
-					<li class="qing"><span>关键字</span><textarea cols="30" rows="1" placeholder="请输入价格"></textarea></li>
-					<li class="qing"><span>价格</span><p></p><span id="price">不限</span></li>
-				</ul>
-			</div>
-			<h3>确定</h3>
+		<section id="car_money">
+			<p>价格</p>
+			<p></p>
+			<ul id="car_money_ul">
+				<li>不限</li>
+				<li>1500以下</li>
+				<li>1500~2500元</li>
+				<li>2500~3500元</li>
+				<li>3500~5000</li>
+				<li>5000~1W</li>
+				<li>1W~2W</li>
+				<li>2W~5W</li>
+				<li>5W~10W</li>
+				<li>10W元以上</li>
+			</ul>
 		</section>
 	</section>
-	<section id="car_money">
-		<p>价格</p>
-		<p></p>
-		<ul>
-			<li>不限</li>
-			<li>1500以下</li>
-			<li>1500~2500元</li>
-			<li>2500~3500元</li>
-			<li>3500~5000</li>
-			<li>5000~1W</li>
-			<li>1W~2W</li>
-			<li>2W~5W</li>
-			<li>5W~10W</li>
-			<li>10W元以上</li>
-		</ul>
-	</section>
-</section>
 </section>
