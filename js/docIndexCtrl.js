@@ -14,6 +14,18 @@ define(["footApp", "jquery", "swiper"], function(app, $, swiper) {
 					mySwiper();
 				}				
 			});
+		var imgSrcArr1 = ["./images/61_01.png","./images/61_02.png","./images/61_03.png","./images/61_04.png"];
+		var imgSrcArr2 = ["./images/62_01.png","./images/62_02.png","./images/62_03.png","./images/62_04.png"];
+		var colorArr = ["#069cc4","#8f8f8f"];
+		//设置footer样式
+		$("footer .s1").attr("src", "./images/62_01.png");
+		$("footer .w1").css("color", "#069cc4");
+		$("footer .s2").attr("src", "./images/61_02.png");
+		$("footer .w2").css("color", "#8f8f8f");
+		$("footer .s3").attr("src", "./images/61_03.png");
+		$("footer .w3").css("color", "#8f8f8f");
+		$("footer .s4").attr("src", "./images/61_04.png");
+		$("footer .w4").css("color", "#8f8f8f");
 	});
 
 	function mySwiper() {

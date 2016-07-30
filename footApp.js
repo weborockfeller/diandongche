@@ -79,9 +79,9 @@ define(["angularAMD", "angular-route"], function(angularAMD) {
 					// 触发锚点后访问的页面
 					templateUrl: "./tpl/find.html",
 					// 当前页面的控制器名字homeCtrl
-//					controller: "findCtrl",
+					controller: "findCtrl",
 					// 控制器的路径./js/homeCtrl.js
-//					controllerUrl: "./js/findCtrl"
+					controllerUrl: "./js/findCtrl"
 				})
 			)
 			.when(
