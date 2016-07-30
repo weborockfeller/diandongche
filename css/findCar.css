@@ -93,6 +93,15 @@ header{
 	line-height: 0.861111rem;
 	margin-top: 0.236111rem;
 }
+.hot>ul>li a{
+	color: #777777;
+}
+nav a{
+	color: #777777;
+}
+#fix a{
+	color: #777777;
+}
 .hot>ul>li:last-child{
 	width: 2.0rem;
 }
@@ -229,14 +238,14 @@ nav>span{
 #fix{
 	position: fixed;
 	z-index: 1;
-	top: 1.5rem;
+	top: 2rem;
 	right: 0.1rem;
 }
 
 #fix>a{
 	display: block;
 	font-size: 13px;
-	margin-top: 0.15rem;
+	margin-top: 0.1rem;
 }
 
 /*找车的大页面*/
