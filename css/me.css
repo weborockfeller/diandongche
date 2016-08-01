@@ -219,6 +219,7 @@ body{
 	line-height: 0.972rem;
 	text-align: center;
 	color: #8e8e8e;
+	font-size: 0.4rem;
 }
 
 #yijian{
@@ -250,6 +251,7 @@ body{
 #yijian>p{
 	text-align: center;
 	width: 100%;
+	font-size: 0.4rem;
 }
 
 #yijian>p:nth-child(2){
